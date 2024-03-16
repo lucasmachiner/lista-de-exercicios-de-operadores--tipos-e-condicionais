@@ -1,6 +1,7 @@
 import lista.Exercicio1;
 import lista.Exercicio2;
 import lista.Exercicio3;
+import lista.Exercicio4;
 import lista.Prompt;
 
 public class Main {
@@ -9,6 +10,7 @@ public class Main {
         Prompt.imprimir("1 - Exercicio 1");
         Prompt.imprimir("2 - Exercicio 2");
         Prompt.imprimir("3 - Exercicio 3");
+        Prompt.imprimir("4 - Exercicio 4");
         int numExerc = Prompt.lerInteiro();
 
         switch (numExerc) {
@@ -26,6 +28,11 @@ public class Main {
                 Prompt.imprimir("Exercicio 3 sendo executado");
                 Prompt.separador();
                 Exercicio3.executar();
+                break;
+            case 4:
+                Prompt.imprimir("Exercicio 4 sendo executado");
+                Prompt.separador();
+                Exercicio4.executar();
                 break;
             default:
                 break;
