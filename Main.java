@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 import lista.Exercicio1;
 import lista.Exercicio2;
 import lista.Exercicio3;
@@ -17,13 +19,17 @@ public class Main {
         Prompt.imprimir("5 - Exercicio 5");
         Prompt.imprimir("6 - Exercicio 6");
         Prompt.imprimir("7 - Exercicio 7");
+        Prompt.imprimir("8 - Exercicio 8");
         int numExerc = Prompt.lerInteiro();
+
+        Scanner teste = new Scanner(System.in);
 
         switch (numExerc) {
             case 1:
                 Prompt.imprimir("Exercicio 1 sendo executado");
                 Prompt.separador();
                 Exercicio1.executar();
+                teste.reset();
                 break;
             case 2:
                 Prompt.imprimir("Exercicio 2 sendo executado");
@@ -52,6 +58,11 @@ public class Main {
                 break;
             case 7:
                 Prompt.imprimir("Exercicio 7 sendo executado");
+                Prompt.separador();
+                Exercicio7.executar();
+                break;
+            case 8:
+                Prompt.imprimir("Exercicio 8 sendo executado");
                 Prompt.separador();
                 Exercicio7.executar();
                 break;
