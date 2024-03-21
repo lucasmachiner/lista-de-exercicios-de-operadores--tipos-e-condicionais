@@ -3,6 +3,7 @@ import java.util.Scanner;
 import lista.Exercicio1;
 import lista.Exercicio10;
 import lista.Exercicio11;
+import lista.Exercicio12;
 import lista.Exercicio2;
 import lista.Exercicio3;
 import lista.Exercicio4;
@@ -27,6 +28,7 @@ public class Main {
         Prompt.imprimir("9 - Exercicio 9");
         Prompt.imprimir("10 - Exercicio 10");
         Prompt.imprimir("11 - Exercicio 11");
+        Prompt.imprimir("12 - Exercicio 12");
         int numExerc = Prompt.lerInteiro();
 
         switch (numExerc) {
@@ -84,6 +86,11 @@ public class Main {
                 Prompt.imprimir("Exercicio 11 sendo executado");
                 Prompt.separador();
                 Exercicio11.executar();
+                break;
+            case 12:
+                Prompt.imprimir("Exercicio 12 sendo executado");
+                Prompt.separador();
+                Exercicio12.executar();
                 break;
             default:
                 break;
