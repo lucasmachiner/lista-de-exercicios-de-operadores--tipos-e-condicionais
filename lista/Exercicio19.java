@@ -10,7 +10,6 @@ public class Exercicio19 {
     double calc = 3.14 * (raio * raio) * altura;
 
     Prompt.imprimir("O volume calculado do cilindro: " + calc);
-    ;
 
   }
 }
